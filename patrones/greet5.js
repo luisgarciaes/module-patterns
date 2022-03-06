@@ -4,6 +4,6 @@ let greet = () => {
     console.log(greeting);
 }
 
-module.exports = {
+module.exports = { //only the object is exported
     greet: greet
 }
