@@ -4,4 +4,4 @@ module.exports = function Greetr() {
         console.log(this.greeting);
     }
 }
-//creates and exports a funciton constructor
+//creates and exports a function constructor

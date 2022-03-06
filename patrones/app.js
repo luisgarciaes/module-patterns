@@ -18,4 +18,4 @@ greet3b.greet();//this demonstrates that greet3 is a reference in memory to the 
 
 const Greet4 = require('./greet4');
 let myGreet = new (Greet4)
-myGreet.greet()
+myGreet.greet()//uses the imported constructor to create an object with the established properties
