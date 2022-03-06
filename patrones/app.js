@@ -8,4 +8,6 @@ greet();
 greet2();
 greet2a.greet() //this effectively does the same thing as the code above
 console.log(greet3);
-greet3.greet();
+greet3.greet();//throws out a TypeError
+
+greet3.greeting = 'Hello from the app'
